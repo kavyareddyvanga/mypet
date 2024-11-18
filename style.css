@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+/*body{
+    overflow-x: hidden;
+}*/
+
+
+    
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/035/094/222/small_2x/ai-generated-close-up-of-curious-cat-peeking-with-intense-eyes-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+#nav h1{
+    text-align:left;
+    color: crimson;
+    font-family: cursive;
+    font-size: 90px;
+    font-family: japan;
+    line-height: 1.2;
+    font-weight: lighter;
+    height:100%;
+    width: 80%;
+}
+#nav h2{
+    font-style: italic;
+    color: rgb(255, 105, 150);  
+    
+}
+#nav h3{
+   font-style: italic;
+   color: rgb(255, 105, 150);    
+}
+#nav i{
+font-size: 30px;
+font-weight: 800;
+cursor:pointer;
+}
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(224, 30, 69, 0.618);
+    top:0;
+    right:-40%;
+    backdrop-filter: blur(12px);
+    padding: 150px 60px;
+}
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 20px;
+    cursor:pointer;
+}
+#cursor{
+    height:20px;
+    width:20px;
+    background-color: crimson;
+    border-radius: 50%;
+    position:fixed;
+}
+button{
+    color: rgb(246, 244, 244);
+    background-color: crimson;
+    font-size:x-large;
+    font-style: italic;
+     text-align: center;    
+}
+#nav h1 i{
+    rotate:360;
+    size: 200vb;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 40px 120px;
+  
+}
+.elem{
+    height: 400px;
+    width:40%;
+background-color: crimson;
+border-radius: 20px;
+border: 2px solid black;
+box-shadow: 0px 20px 0px black;
+}
+.elem h5{
+    background-color: aliceblue;
+
+    font-size: large;
+    font-weight: 800;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.elem h7{
+    font-size: larger;
+    font-weight: 800;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.elem h6{
+    font-size: larger;
+    font-weight: 800;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container1{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 40px 120px;
+  
+}
